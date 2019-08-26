@@ -131,6 +131,15 @@ nav a:hover{
 	/*display: flex;*/
 }
 
+.project .process a{
+	color: #000000;
+  text-decoration: none;
+}
+
+.project .process  a:hover{
+  color: #D10059;
+  text-decoration: underline;
+}
 
 
 
@@ -174,6 +183,46 @@ h4{
 	
 }
 
+h5{
+	font-size: 2em;
+	width: 100%;
+	line-height:1.5em;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400;
+}
+
+h6{
+	font-size: 1.5em;
+	width: 100%;
+	line-height:1.5em;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+
+.about-header{
+	background-color: #C7BDAD;
+/*	color: var(--main-grey-color);
+*/}
+
+.about-intro h5{
+	width: 60%;
+}
+
+
+.about-intro{
+	background-color: #C7BDAD;
+	color: #fff;
+	min-height: 350px;
+	padding-top: 50px;
+}
+
+.about-intro{
+	background: #C7BDAD url(../images/about_profile_400px.png) 75% 100% no-repeat;
+	
+}
+
 
 .project{
 	background-color: #F4F4F4;
@@ -212,6 +261,19 @@ h4{
 	margin: 0 0 0px 0;
 }
 
+.work .about-title{
+	padding: 0 0 0px 0;
+	width: 35%;
+	height: auto;
+	margin: 30px 0 0 0;
+}
+
+.work .about-copy{
+	padding: 0 0 0px 0;
+	width: 60%;
+	height: auto;
+	margin: 30px 0 0 0;
+}
 
 
 
@@ -265,14 +327,14 @@ img.syze {
 	-webkit- transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	transform: scale(1);
-	filter: blur(1px);
-}
+/*	filter: blur(1px);
+*/}
 
 .work .work-image  :hover img{
 	opacity: 1;
 	transform: scale(1.01);
-	filter: blur(0);
-
+/*	filter: blur(0);
+*/
 	/*text-decoration: none;*/
 
 }
@@ -358,6 +420,11 @@ footer .wrapper img:hover{
 	margin: 0 0 50px 0;
 }
 
+.intro .role{
+	
+	margin: 0 0 50px 0;
+}
+
 .scamps {
 	padding: 0px 0 50px 0;
 	width: 40%;
@@ -379,7 +446,7 @@ footer .wrapper img:hover{
 }
 
 .process {
-	padding: 100px 0px 100px 0px;
+	padding: 50px 0px 50px 0px;
 	width: 60%;
 }
 
@@ -573,13 +640,13 @@ footer .wrapper img:hover{
 
 @media screen and (max-width: 900px) {
 
-h1{
-	font-size: 1.3em;
+/*h1{
+	font-size: 1.4em;
 	width: 100%;
 	line-height:1.5em;
 	font-family: "Libre Baskerville", serif;
 	font-weight: 400;
-}
+}*/
 
 .wrapper{
 	width:90%;
@@ -617,8 +684,41 @@ h1{
 	margin: 0 0 0px 0;
 }
 
+.work .about-title{
+	padding: 20px 0 0px 0;
+	width: 100%;
+	height: auto;
+	margin: 0 0 0 0;
+}
+
+.work .about-copy{
+	padding: 0 0 0px 0;
+	width: 100%;
+	height: auto;
+	margin: 0 0 0px 0;
+}
+
 .process{
 	width: 100%;
+}
+
+.about-intro h5{
+	width: 100%;
+}
+
+.about-intro{
+	background-color: #C7BDAD;
+	color: #fff;
+	min-height: 600px;
+	padding-top: 50px;
+}
+
+h5{
+	font-size: 2em;
+	width: 100%;
+	line-height:1.5em;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400;
 }
 
 }
@@ -633,13 +733,20 @@ h1{
 @media only screen and (max-width: 600px) {
 
 h1{
-	font-size: 1.0em;
+	font-size: 1.4em;
 	width: 100%;
 	line-height:1.5em;
 	font-family: "Libre Baskerville", serif;
 	font-weight: 400;
 }
 	
+	h5{
+	font-size: 1.5em;
+	width: 100%;
+	line-height:1.5em;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 400;
+}
 }
 	
 
