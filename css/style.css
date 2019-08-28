@@ -747,6 +747,12 @@ h1{
 	font-family: "Libre Baskerville", serif;
 	font-weight: 400;
 }
+
+.about-intro{
+	background: #C7BDAD url(../images/about_profile_350px.png) 75% 100% no-repeat;
+	
+}
+
 }
 	
 
