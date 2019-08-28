@@ -109,6 +109,21 @@ nav a:hover{
 /*	text-decoration: underline;
 */}
 
+.about-copy a{
+	text-decoration: none;
+	color: #000;
+	padding-left: 20px;
+	font-size: 1.0em;
+	font-family: "Lato", sans-serif;
+	font-weight:  400;
+}
+
+
+
+.about-copy a:hover{
+	color:#D10059;
+/*	text-decoration: underline;
+*/}
 
 /*.navigation{
 		position: absolute;
