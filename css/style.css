@@ -194,7 +194,7 @@ h5{
 h6{
 	font-size: 1.5em;
 	width: 100%;
-	line-height:1.5em;
+	line-height:1em;
 	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -733,7 +733,7 @@ h5{
 @media only screen and (max-width: 600px) {
 
 h1{
-	font-size: 1.4em;
+	font-size: 1em;
 	width: 100%;
 	line-height:1.5em;
 	font-family: "Libre Baskerville", serif;
