@@ -110,6 +110,10 @@ nav a:hover{
 /*	text-decoration: underline;
 */}
 
+a{
+	color: #707070;
+}
+
 .about-copy a{
 	text-decoration: none;
 	color: #000;
