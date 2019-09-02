@@ -132,6 +132,11 @@ nav a:hover{
 	text-decoration: none;
 }
 
+.work-copy a:hover{
+	text-decoration: none;
+	color:#D10059;
+}
+
 /*.navigation{
 		position: absolute;
 		left:-999px;
