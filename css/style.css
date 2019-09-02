@@ -128,6 +128,10 @@ nav a:hover{
 /*	text-decoration: underline;
 */}
 
+.work-copy a{
+	text-decoration: none;
+}
+
 /*.navigation{
 		position: absolute;
 		left:-999px;
