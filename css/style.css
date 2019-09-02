@@ -128,11 +128,11 @@ nav a:hover{
 /*	text-decoration: underline;
 */}
 
-.work-copy a{
+.work a{
 	text-decoration: none;
 }
 
-.work-copy a:hover{
+.work a:hover{
 	text-decoration: none;
 	color:#D10059;
 }
