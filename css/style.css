@@ -106,8 +106,7 @@ nav a{
 
 nav a:hover{
 	color:#D10059;
-/*	text-decoration: underline;
-*/}
+}
 
 
 
@@ -133,8 +132,9 @@ nav a:hover{
 }
 
 .work a:hover{
-	text-decoration: none;
 	color: #D10059;
+	text-decoration: none;
+	
 }
 
 /*.navigation{
