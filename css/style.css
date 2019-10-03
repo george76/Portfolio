@@ -397,8 +397,8 @@ img.syze {
 	transition: .3s ease-in-out;
 	transform: scale(1);
 /*	filter: blur(1px);
-}*/
-
+*/
+}
 
 
 
@@ -859,7 +859,6 @@ h1{
 @media only screen and (min-width: 1200px) {
 
 }
-
 
 
 
