@@ -383,6 +383,22 @@ img.syze {
 
 }
 
+.work .work-header  :hover {
+		color: #D10059;
+/*	transform: scale(1.01);
+*//*	filter: blur(0);
+*/
+	/*text-decoration: none;*/
+
+}
+
+.work .work-header  {
+	-webkit- transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	transform: scale(1);
+/*	filter: blur(1px);
+}*/
+
 
 
 
